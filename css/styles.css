@@ -1,0 +1,31 @@
+header{background-color: #FFFFFF;}
+
+.logo-header{color:#2E2F42;}
+.logo-header:hover, .logo-header:focus{color:#4D5AE5;}
+
+.link a{color: #2E2F42;}
+.link a:hover, .link a:focus{color: #4D5AE5;}
+
+.site-contact a{color: #434455;}
+.site-contact a:hover, .site-contact a:focus{color: #4D5AE5;}
+
+.label-btn {color: #FFFFFF; background-color: #404BBF;}
+.label-btn:hover,  .label-btn:focus{color: #4D5AE5;}
+
+.link-btn:hover, .link-btn:focus{color:#4D5AE5;}
+.link-btn {color: #4D5AE5; background-color: #E7E9FC;}
+footer {background-color: #2E2F42;}
+ .logo-footer{color: #F4F4FD;}
+ .logo-footer:hover, .logo-footer:focus{color:#4D5AE5;}
+ .post-footer{color: #E7E9FC;}
+
+
+
+ .hero-btn{background-color: #4D5AE5;}
+ .hero-btn{color: #FFFFFF;}
+ .hero-btn:hover, .hero-btn:focus{color:#4D5AE5;}
+
+ ul{list-style: none;}
+
+ linearGradient{color-scheme: white;}
+ 
