@@ -1,3 +1,10 @@
+ 
+ /** szrift **/                   
+ font-family: 'Raleway', sans-serif;
+ font-family: 'Roboto', sans-serif;
+
+
+
 header{background-color: #FFFFFF;}
 
 .logo-header{color:#2E2F42;}
@@ -28,4 +35,4 @@ footer {background-color: #2E2F42;}
  ul{list-style: none;}
 
  linearGradient{color-scheme: white;}
- 
+
