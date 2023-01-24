@@ -22,7 +22,7 @@ header{background-color: var(--primary-header); }
 .link-header:hover, .link-header:focus{color: var(--hover-focus);}
 .link-header{font-weight: 500;
     font-size: 16px;
-    line-height: 1.33 letter-spacing: 0.02em;}
+    line-height: 1.33; letter-spacing: 0.02em;}
 
 .site-contact a{color: #434455;}
 .site-contact a:hover, .site-contact a:focus{color: var(--hover-focus);}
@@ -63,7 +63,7 @@ header{background-color: var(--primary-header); }
 
                     .title-profesional{font-weight: 400;
                         font-size: 16px;
-                        line-height: 1.33 letter-spacing: 0.02em;}
+                        line-height: 1.33; letter-spacing: 0.02em;}
                         .title-profesional{color: #434455;}
 
                         .main-page{color: #2E2F42;}
