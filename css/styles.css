@@ -1,7 +1,12 @@
 :root{--primary-header: #FFFFFF;
 --primary-footer: #2E2F42;
---hover-focus:#4D5AE5;
-}
+--hover-focus:#4D5AE5;}
+
+ /** szrift **/
+ font-family: 'Raleway',
+ sans-serif;
+ font-family: 'Roboto',
+ sans-serif;
 
 ul {list-style: none;}
 linearGradient {color-scheme: white;}
@@ -17,13 +22,13 @@ header{background-color: var(--primary-header); }
 .link-header:hover, .link-header:focus{color: var(--hover-focus);}
 .link-header{font-weight: 500;
     font-size: 16px;
-    line-height: 1.33;}
+    line-height: 1.33 letter-spacing: 0.02em;}
 
 .site-contact a{color: #434455;}
 .site-contact a:hover, .site-contact a:focus{color: var(--hover-focus);}
 .site-contact{font-weight: 400;
     font-size: 16px;
-    line-height: 1.33;}
+    line-height: 1.33; letter-spacing: 0.02em;}
 
 
     /*hero index.html*/
@@ -33,7 +38,7 @@ header{background-color: var(--primary-header); }
          .hero-btn:hover,.hero-btn:focus {color: var(--hover-focus);}
          .hero-btn{font-weight: 500;
             font-size: 16px;
-            line-height: 1.33;}
+            line-height: 1.33; letter-spacing: 0.04em;}
            /* .hero-btn{position: absolute;
                 width: 169px;
                 height: 56px;
@@ -43,28 +48,28 @@ header{background-color: var(--primary-header); }
          .hero-text{color: #FFFFFF;}
          .hero-text{font-weight: 700;
             font-size: 56px;
-            line-height: 1.33;}
+            line-height: 1.33; letter-spacing: 0.02em;}
 
             /*title index.html*/
             .title{font-weight: 500;
                 font-size: 20px;
-                line-height: 1.33;}
+                line-height: 1.33; letter-spacing: 0.02em;}
                 .title{color: #2E2F42;}
 
                 .title-text{font-weight: 400;
                     font-size: 16px;
-                    line-height: 1.33;}
+                    line-height: 1.33; letter-spacing: 0.02em;}
                     .title-text{color: #434455;}
 
                     .title-profesional{font-weight: 400;
                         font-size: 16px;
-                        line-height: 1.33}
+                        line-height: 1.33 letter-spacing: 0.02em;}
                         .title-profesional{color: #434455;}
 
                         .main-page{color: #2E2F42;}
                         .main-page{font-weight: 700;
                             font-size: 36px;
-                            line-height: 1.33;}
+                            line-height: 1.33; letter-spacing: 0.02em;}
 
                         /*title portfol1.33
                         .title-bonus{font-weight: 400;
@@ -79,18 +84,22 @@ header{background-color: var(--primary-header); }
 .label-btn:hover,  .label-btn:focus{color: var(--hover-focus);}
 .label-btn{font-weight: 500;
     font-size: 16px;
-    line-height: 1.33;}
+    line-height: 1.33; letter-spacing: 0.04em;}
 .link-btn:hover, .link-btn:focus{color: var(--hover-focus);}
 .link-btn {color: #4D5AE5; background-color: #E7E9FC;}
 .link-btn{font-weight: 500;
     font-size: 16px;
-    line-height: 1.33;}
+    line-height: 1.33; letter-spacing: 0.04em;}
 
 /*footer*/
 footer {background-color: var(--primary-footer);}
  .logo-footer{color: #F4F4FD;}
  .logo-footer:hover, .logo-footer:focus{color: var(--hover-focus);}
  .post-footer{color: #E7E9FC;}
+ .post-footer{font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;}
 
 
 
