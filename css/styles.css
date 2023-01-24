@@ -6,13 +6,6 @@
 ul {list-style: none;}
 linearGradient {color-scheme: white;}
 
- /** szrift **/                   
-font-family: 'Raleway',
-sans-serif;
-font-family: 'Roboto',
-sans-serif;
-
-
 /*header index.html*/
 
 header{background-color: var(--primary-header); }
@@ -24,13 +17,13 @@ header{background-color: var(--primary-header); }
 .link-header:hover, .link-header:focus{color: var(--hover-focus);}
 .link-header{font-weight: 500;
     font-size: 16px;
-    line-height: 24px;}
+    line-height: 1.33;}
 
 .site-contact a{color: #434455;}
 .site-contact a:hover, .site-contact a:focus{color: var(--hover-focus);}
 .site-contact{font-weight: 400;
     font-size: 16px;
-    line-height: 24px;}
+    line-height: 1.33;}
 
 
     /*hero index.html*/
@@ -40,7 +33,7 @@ header{background-color: var(--primary-header); }
          .hero-btn:hover,.hero-btn:focus {color: var(--hover-focus);}
          .hero-btn{font-weight: 500;
             font-size: 16px;
-            line-height: 24px;}
+            line-height: 1.33;}
            /* .hero-btn{position: absolute;
                 width: 169px;
                 height: 56px;
@@ -50,33 +43,33 @@ header{background-color: var(--primary-header); }
          .hero-text{color: #FFFFFF;}
          .hero-text{font-weight: 700;
             font-size: 56px;
-            line-height: 60px;}
+            line-height: 1.33;}
 
             /*title index.html*/
             .title{font-weight: 500;
                 font-size: 20px;
-                line-height: 24px;}
+                line-height: 1.33;}
                 .title{color: #2E2F42;}
 
                 .title-text{font-weight: 400;
                     font-size: 16px;
-                    line-height: 24px;}
+                    line-height: 1.33;}
                     .title-text{color: #434455;}
 
                     .title-profesional{font-weight: 400;
                         font-size: 16px;
-                        line-height: 24px}
+                        line-height: 1.33}
                         .title-profesional{color: #434455;}
 
                         .main-page{color: #2E2F42;}
                         .main-page{font-weight: 700;
                             font-size: 36px;
-                            line-height: 40px;}
+                            line-height: 1.33;}
 
-                        /*title portfolio*/
+                        /*title portfol1.33
                         .title-bonus{font-weight: 400;
                             font-size: 16px;
-                            line-height: 24px;}
+                            line-height: 1.33;}
                             .title-bonus{color: #434455;}
 
 
@@ -86,12 +79,12 @@ header{background-color: var(--primary-header); }
 .label-btn:hover,  .label-btn:focus{color: var(--hover-focus);}
 .label-btn{font-weight: 500;
     font-size: 16px;
-    line-height: 24px;}
+    line-height: 1.33;}
 .link-btn:hover, .link-btn:focus{color: var(--hover-focus);}
 .link-btn {color: #4D5AE5; background-color: #E7E9FC;}
 .link-btn{font-weight: 500;
     font-size: 16px;
-    line-height: 24px;}
+    line-height: 1.33;}
 
 /*footer*/
 footer {background-color: var(--primary-footer);}
