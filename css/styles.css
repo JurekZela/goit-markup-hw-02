@@ -36,7 +36,7 @@ header{background-color: var(--primary-header); }
          .hero-btn { background-color: #4D5AE5;}
          .hero-btn {color: #FFFFFF;}
          .hero-btn:hover,.hero-btn:focus {color: var(--hover-focus);}
-         .hero-btn{font-weight: 500;
+         .hero-btn{font-family: "inherit"; font-weight: 500;
             font-size: 16px;
             line-height: 1.33; letter-spacing: 0.04em;}
            /* .hero-btn{position: absolute;
@@ -82,12 +82,12 @@ header{background-color: var(--primary-header); }
          /* portfolio button*/
 .label-btn {color: #FFFFFF; background-color: #404BBF;}
 .label-btn:hover,  .label-btn:focus{color: var(--hover-focus);}
-.label-btn{font-weight: 500;
+.label-btn{font-family: "inherit"; font-weight: 500;
     font-size: 16px;
     line-height: 1.33; letter-spacing: 0.04em;}
 .link-btn:hover, .link-btn:focus{color: var(--hover-focus);}
 .link-btn {color: #4D5AE5; background-color: #E7E9FC;}
-.link-btn{font-weight: 500;
+.link-btn{font-family: inherit; font-weight: 500;
     font-size: 16px;
     line-height: 1.33; letter-spacing: 0.04em;}
 
