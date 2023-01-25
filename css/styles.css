@@ -11,10 +11,22 @@
   --accent: #e7e9fc;
   --light: #f4f4fd;
 }
-.body {
+body {
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
-  color: #2e2f42;
+  background-color: var(--primary-header);
+  color: var(--primary-footer);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .list {
   list-style: none;
@@ -22,14 +34,14 @@
 .link {
   text-decoration: none;
 }
-address {
+.addr-contact {
   font-style: normal;
 }
 linearGradient {
   color-scheme: var(--primary-header);
 }
 /*header index.html*/
-header {
+.header {
   background-color: var(--primary-header);
 }
 .logo-header-left {
@@ -72,12 +84,11 @@ header {
   line-height: 1.33;
   letter-spacing: 0.02em;
 }
-
-.site-contact a {
+.site-contact {
   color: var(--text);
 }
-.site-contact a:hover,
-.site-contact a:focus {
+.site-contact:hover,
+.site-contact:focus {
   color: var(--hover-focus);
 }
 .site-contact {
@@ -212,7 +223,7 @@ header {
 }
 
 /*footer*/
-footer {
+.footer {
   background-color: var(--primary-footer);
 }
 .logo-footer {
