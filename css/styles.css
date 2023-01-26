@@ -44,15 +44,16 @@ linearGradient {
 .header {
   background-color: var(--primary-header);
 }
+
 .logo-header-left {
   color: var(--btn);
 }
-.logo-header-left,
+.logo-header-left:hover,
 .logo-header-left:focus {
   color: var(--btn);
 }
 .logo-header-left {
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -66,7 +67,7 @@ linearGradient {
   color: var(--dark);
 }
 .logo-header {
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -234,7 +235,7 @@ linearGradient {
   color: var(--light);
 }
 .logo-footer {
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
